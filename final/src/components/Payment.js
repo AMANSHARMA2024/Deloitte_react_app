@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Payment.css';
+import './../styles/Payment.css';
 import gpay from './../assets/gpay.png';
 import visa from './../assets/visa.png';
 import mastercard from './../assets/mastercard.png';
