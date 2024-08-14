@@ -38,12 +38,14 @@ const Cart = ({ cart, setCart, handleChange }) => {
                 <div className="cart_img">
                   <img src={item.img} className="img-fluid" alt="Product Image" />
                   <div className="buttongroup1">
-                  <p>{item.title}</p>
-                  <div className="morebuttbutons">
-                  <button onClick={() => handleChange(item, 1)}>+</button>
-                  <button>{item.amount}</button>
-                  <button onClick={() => handleChange(item, -1)}>-</button>
-                  </div>
+                    <div className="morebuttons1">
+                      <p>{item.title}</p>
+                    </div>
+                    <div className="morebuttons2">
+                      <button onClick={() => handleChange(item, 1)}>+</button>
+                      <button>{item.amount}</button>
+                      <button onClick={() => handleChange(item, -1)}>-</button>
+                    </div>
                   </div>
                 </div>
                 <div className="buttons">
