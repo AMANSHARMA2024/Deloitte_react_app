@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  footer {
+    background-color: #b5545e;
+    width: 100%;
+    color: white;
+    height: 360px;
+  }
+  
+  .container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .col {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+  }
+  
+  .mb-4 {
+    color: white;
+  }
+  
+  .img {
+    height: 150px;
+  }
+  
+  #btn {
+    background-color: #370617;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #btn:hover {
+    background-color: #5a0a1b;
+  }
+  
+  .text-white {
+    color: white !important;
+  }
+  
+  .text-uppercase {
+    text-transform: uppercase;
+  }
+  
+  a.text-white:hover {
+    text-decoration: underline;
+  }
+  
+  .form-control {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+  }
+  
+  i {
+    color: white;
+    font-size: 2rem;
+    
+  }
+  
+  i:hover {
+    color: #ddd;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .border-top {
+    border-top: 1px solid white;
+  }
+  
+  .p-3 {
+    padding: 1rem;
+  }
+  
+  .pt-4 {
+    padding-top: 1.5rem;
+  }
+  
+  .mt-xl-5 {
+    margin-top: 3rem;
+  }
+  
+  .list-unstyled {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .list-unstyled li {
+    margin-bottom: 10px;
+  }
+  
+  .list-unstyled li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .list-unstyled li a:hover {
+    text-decoration: underline;
+  }
+  button{
+    width: 120px;
+    border-radius: 5px;
+    margin-left: 80px;
+  }
+  .icons{
+    font-size: 30px;
+    margin-left: 40px;
+  }
+  
