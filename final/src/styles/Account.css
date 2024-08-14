@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #b5545e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b5545e;
+  }
+  
+  .image-section img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out;
+  }
+  .image-section img:hover{
+    transform: scale(1.05);
+    box-shadow: #540808;
+  }
+  
+  .card-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    width: 400px;
+    padding: 20px;
+    background-color: #370617;
+    border-radius: 10px;
+    box-shadow: 2.4px 4.8px 4.8px hsl(0deg 0% 0% / 0.43);
+    transition: 0.5s ease-out;
+    text-align: center;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 4.6px 9.1px 9.1px hsl(0deg 0% 0% / 0.36);
+  }
+  
+  h2 {
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 2em;
+    color: whitesmoke;
+    font-weight: normal;
+    padding: 10px;
+    border: 2px solid white;
+    margin-bottom: 20px;
+  }
+  
+  input[type=email], input[type=password], input[type=text] {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    color: black;
+    font-family: 'Segoe UI', sans-serif;
+    border-radius: 10px;
+    text-indent: 10px;
+    margin: 10px 0;
+  }
+  
+  button {
+    width: 50%;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    margin: 20px 0;
+    border-radius: 7px;
+    background-color: #b5545e;
+    color: white;
+    transition: 0.3s ease;
+    margin: 0 auto;
+   
+  }
+  
+  /* button:hover {
+    background-color: #ae8287;
+    color: black;
+    width: 50%;
+  } */
+  
+  .error {
+    font-family: 'Montserrat', sans-serif;
+    color: red;
+    font-weight: normal;
+    font-size: 1.3em;
+  }
+  
+  .toggle-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .toggle-buttons button {
+    width: 48%;
+  }
+  
+  .active {
+    background-color: #540808; /* Active button background color */
+    color: white; /* Active button text color */
+    border: none; /* Remove border for active button */
+  }
+  
+  .inactive {
+    background-color: #f8f9fa; /* Inactive button background color */
+    color: black; /* Inactive button text color */
+    border: 1px solid maroon; /* Border for inactive button */
+  }
+  
