@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: #b5545e;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+img.first {
+    max-width: 500px;
+    transition: 0.4s ease;
+}
+
+img.first:hover {
+    transform: scale(1.3);
+}
+
+.bigbox {
+    width: 500px;
+    height: 500px;
+    background-color: #370617;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 30px;
+    box-shadow: 2.4px 4.8px 4.8px hsl(0deg 0% 0% / 0.43);
+    transition: 0.5s ease-out;
+}
+
+.bigbox:hover {
+    transform: scale(1.05);
+    box-shadow: 4.6px 9.1px 9.1px hsl(0deg 0% 0% / 0.36);
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 2em;
+    color: whitesmoke;
+    font-weight: normal;
+    padding: 10px;
+    border: 2px solid white;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+input[type=email], input[type=password], input[type=text] {
+    width: 350px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    font-family: 'Segoe UI', sans-serif;
+    border-radius: 10px;
+    text-indent: 10%;
+    margin: 10px auto;
+    display: block;
+    
+}
+.loginbutton{
+    margin: 0 auto;
+    color: black;
+}
+.loginbutton:hover{
+    background-color: maroon;
+    color: white;
+}
+
+button {
+    width: 120px;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    margin: 20px auto;
+    border-radius: 7px;
+    background-color: #b5545e;
+    color: black;
+    transition: 0.3s ease;
+    display: block;
+    
+}
+
+/* button:hover {
+    background-color: white;
+    width: 150px;
+} */
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: red;
+    font-weight: normal;
+    font-size: 1.3em;
+    text-align: center;
+}
+

@@ -4,7 +4,7 @@ import { faHeart, faBell, faUser, faShoppingCart } from '@fortawesome/free-solid
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import './../styles/Navbar.css'
-import logo from './../assets/winsterlogo.png';
+import logo from './../assets/images/winsterlogo.png';
 
 function Navbar({ cartItems = [] }) {
   return (
