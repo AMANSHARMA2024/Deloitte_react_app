@@ -112,3 +112,16 @@
     max-width: 300px;
     padding-top: 0;
   }
+  #removecartbutton {
+    transition: background-color 0.3s, color 0.3s; 
+  }
+  
+  #removecartbutton:hover {
+    background-color: white; 
+    color: red; 
+  }
+  
+  #removecartbutton:hover .bi-trash {
+    fill: red;
+  }
+  
