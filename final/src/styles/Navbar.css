@@ -2,14 +2,23 @@ body {
     background-color: #370617;
     margin: 0;
     padding: 0;
+    font-size: large;
     
 }
 /* Header  */
 .navbar{
     height: 100px;
+    margin-top: 0px;
     
     
 }
+.navbar-brand img{
+    max-width: 100px;
+    height: 100px;
+    margin-top: 50px;
+}
+
+  
 div ul li a:hover{
     border-bottom: 1.5px solid whitesmoke;
 }
@@ -42,7 +51,9 @@ nav div a{
     position:static;
     margin-left: -22px; 
 
+
 }
+
 .custom-dropdown-toggle {
     background: none;
     border: none;
@@ -74,5 +85,6 @@ nav div a{
     background-color:  rgba(181,84,94,0.3); 
     color: white; 
   }
+
 
   

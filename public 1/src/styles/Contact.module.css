@@ -1,0 +1,56 @@
+/* ContactForm.module.css */
+ 
+/* Body Styling */
+.body {
+    border: 10px solid #370617;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+   
+  /* Heading Styling */
+  .textPink {
+    background-color: #370617;
+    color: white;
+    font-size: 40px;
+    font-weight: lighter;
+    padding: 10px 40px 12px 40px;
+  }
+   
+  .mb4 {
+    color: #370617;
+  }
+   
+  /* Label Styling */
+  .textDarkRed {
+    color: #370617;
+    text-align: left;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+   
+  /* Form Container Styling */
+  .formContainer {
+    background-color: #b5545e;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);    
+  }
+   
+  /* Button Styling */
+  .btnPrimary {
+    background-color: #370617;
+    color: white;
+    width: 200px;
+    height: 40px;
+    transition: background-color 0.3s;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+   
+  .btnPrimary:hover {
+    background-color: white;
+    color: #370617;
+  }

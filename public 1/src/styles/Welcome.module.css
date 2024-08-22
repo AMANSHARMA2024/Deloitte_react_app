@@ -1,0 +1,6 @@
+/* Add this to your existing CSS file */
+.welcomeMessage {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #555;
+}

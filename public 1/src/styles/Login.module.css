@@ -1,0 +1,64 @@
+.body {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.h2 {
+    text-align: center;
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 2em;
+    color: whitesmoke;
+    font-weight: normal;
+    padding: 10px;
+    border: 2px solid white;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.input {
+    width: 350px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    font-family: 'Segoe UI', sans-serif;
+    border-radius: 10px;
+    text-indent: 10%;
+    margin: 10px auto;
+    display: block;
+    
+}
+.loginbutton{
+    margin: 0 auto;
+    color: black;
+    background-color: #b5545e;
+    padding: 10px 0px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    transition: ease-in-out 0.3s;
+}
+.loginbutton:hover{
+    background-color: #f7e2e4;
+    width: 150px;
+}
+
+.button {
+    width: 120px;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    margin: 20px auto;
+    border-radius: 7px;
+    color: black;
+    transition: 0.3s ease;
+    display: block;   
+}
+
+.p {
+    font-family: 'Montserrat', sans-serif;
+    color: red;
+    font-weight: normal;
+    font-size: 1.3em;
+    text-align: center;
+}
+

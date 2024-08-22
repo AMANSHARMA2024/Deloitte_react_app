@@ -1,0 +1,24 @@
+.container{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+#cartbutton1{
+    margin-left: 20px;
+    text-align: center;
+}
+#wishlistbutton{
+    margin-left: 20px;
+    text-align: right;
+    transition: background-color 0.3s, color 0.3s; 
+}
+ 
+#wishlistbutton:hover {
+    background-color: red; 
+    color: white; 
+  }
+  
+#wishlistbutton:hover .bi-heart-fill {
+    fill: white; 
+  }
+  

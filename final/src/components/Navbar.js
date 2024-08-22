@@ -3,8 +3,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart, faBell, faUser, faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import './../styles/Navbar.css'
+import './../styles/Navbar.css';
 import logo from './../assets/images/winsterlogo.png';
+import { NavLink } from 'react-router-dom';
 
 function Navbar({ cartItems = [] }) {
   return (
@@ -12,7 +13,7 @@ function Navbar({ cartItems = [] }) {
       <div className="container-fluid">
         {/* Logo */}
         <a className="navbar-brand" href="#">
-          <img src={logo} width="100px" alt="Winster Logo" />
+          <img src={logo} alt="Winster Logo" />
         </a>
 
         {/* Toggle Btn */}
@@ -42,19 +43,20 @@ function Navbar({ cartItems = [] }) {
               </a>
             </li>
             <li className="nav-item mx-2">
-              <a className="nav-link active text-black" aria-current="page" href="#">
-                Gallery
-              </a>
-            </li>
+      <NavLink to="/gallery" className="nav-link active text-black" aria-current="page">
+        Gallery
+      </NavLink>
+    </li>
+
             <li className="nav-item mx-2">
               <a className="nav-link active text-black" aria-current="page" href="#">
                 Products
               </a>
             </li>
             <li className="nav-item mx-2">
-              <a className="nav-link active text-black" aria-current="page" href="#">
+              <NavLink TO="/contact" className="nav-link active text-black" aria-current="page">
                 Contact Us
-              </a>
+              </NavLink>
             </li>
           </ul>
           <div className="d-flex align-items-center gap-3">

@@ -1,0 +1,114 @@
+  .body {
+    background-color: #f7e2e4;
+    /* height: 100vh; */
+    margin-top: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  @media screen and (max-width:776px) {
+    .container{
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+  /* Add this to your existing CSS file */
+
+
+  .imagelogo {
+    max-width: 350px;
+    transition: transform 0.5s ease-in-out;
+  }
+  .imagelogo:hover{
+    transform: scale(1.05);
+    box-shadow: #540808;
+  }
+  
+  .cardsection {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    width: 400px;
+    padding: 20px;
+    background-color: #370617;
+    border-radius: 10px;
+    box-shadow: 2.4px 4.8px 4.8px hsl(0deg 0% 0% / 0.43);
+    transition: 0.5s ease-out;
+    text-align: center;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 4.6px 9.1px 9.1px hsl(0deg 0% 0% / 0.36);
+  }
+  
+  .h2 {
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 2em;
+    color: whitesmoke;
+    font-weight: normal;
+    padding: 10px;
+    border: 2px solid white;
+    margin-bottom: 20px;
+  }
+  
+  #button {
+    width: 50%;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    margin: 20px 0;
+    border-radius: 7px;
+    background-color: #b5545e;
+    color: white;
+    transition: 0.3s ease;
+    margin: 0 auto;
+   
+  }
+  .button{
+    background-color: #b5545e;
+    height: 50px;
+    border-radius: 10px;
+    width: 100px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  /* .error {
+    font-family: 'Montserrat', sans-serif;
+    color: red;
+    font-weight: normal;
+    font-size: 1.3em;
+  } */
+  
+  .togglebuttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .togglebuttons button {
+    width: 48%;
+  }
+  
+  .active {
+    background-color: #540808; /* Active button background color */
+    color: white; /* Active button text color */
+    border: none; /* Remove border for active button */
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .inactive {
+    background-color: #f8f9fa; /* Inactive button background color */
+    color: black; /* Inactive button text color */
+    border-radius: 10px;
+  }
+  

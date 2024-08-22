@@ -1,0 +1,231 @@
+/* Carousel */
+.carousel-item img {
+    height: 480px;
+  }
+  
+  /* Youtube Video  */
+  .videoTitle {
+    text-align: center;
+    height: 100px;
+    color: white;
+    background-color: #b5545e;
+    padding-top: 30px;
+  }
+  
+  iframe {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    padding-top: 30px;
+    border-radius: 10px;
+  }
+  
+  /* Selection */
+  .portfolio {
+    padding: 50px 0;
+    background-color: white;
+  }
+  
+  .subTitle {
+    text-align: center;
+    background-color: #b5545e;
+    color: white;
+    width: 300px;
+    margin-left: 40%;
+  }
+  
+  .workList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+  }
+  
+  .work {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .work img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+    height: 400px;
+  }
+  
+  .layer {
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgb(118, 0, 0, 0.2), white);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 16px;
+    transition: height 0.5s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .layer h3 {
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 22px;
+    margin-top: 40px;
+  }
+  
+  .layer p {
+    font-size: 1em;
+    margin-right: 10px;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(0, 0, 0, 0.836);
+  }
+  
+  .layer a {
+    margin-top: 20px;
+    color: rgb(16, 16, 16);
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background: #f2eff3;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+  }
+  
+  .work:hover img {
+    transform: scale(1.2);
+  }
+  
+  .work:hover .layer {
+    height: 100%;
+  }
+  
+  .btn {
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #dd87f9;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #0c0cf2;
+    transition: background 0.5s;
+  }
+  
+  .btn:hover {
+    background: rgb(249, 195, 246);
+  }
+  
+  /* demoproducts */
+  .body {
+    background-color: #370617;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .demoTitle {
+    text-align: center;
+    height: 100px;
+    color: white;
+    background-color: #b5545e;
+    padding-top: 30px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .card {
+    padding: 20px;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    box-shadow: 7px 7px #b5545e;
+    transform: scale(1.05);
+  }
+  
+  .card h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .card h6 {
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  .card p {
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  .card i {
+    color: #370617;
+  }
+  
+  .card img:hover {
+    transform: scale(1.1);
+  }
+  
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .quantityButton {
+    width: 40px;
+    background-color: #f8b3ba;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+  
+  .quantityInput {
+    width: 60px;
+    text-align: center;
+    border-radius: 70px;
+    font-size: 20px;
+    border: 2px solid black;
+  }
+  
+  .addToCart {
+    background-color: #b5545e;
+    border-color: #b5545e;
+  }
+  
+  .viewMore {
+    background-color: #b5545e;
+    border-color: white;
+    border-radius: 5px;
+  }
+  

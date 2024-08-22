@@ -22,6 +22,7 @@ const Gallery = () => {
   return (
     <div className="gallery">
       <div className="title-box"></div>
+      <br></br>
       <h1>Wineyard</h1>
       <br></br>
       <br></br>

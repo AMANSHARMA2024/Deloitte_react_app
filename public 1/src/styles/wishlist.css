@@ -1,0 +1,26 @@
+#removebutton {
+    transition: background-color 0.3s, color 0.3s; 
+  }
+  
+  #removebutton:hover {
+    background-color: red; 
+    color: white; 
+  }
+  
+  #removebutton:hover .bi-trash {
+    fill: white;
+  }
+  
+  #cartbutton {
+    transition: background-color 0.3s, color 0.3s; 
+  }
+  
+  #cartbutton:hover {
+    background-color: green; 
+    color: white; 
+  }
+  
+  #cartbutton:hover .bi-cart {
+    fill: white;
+  }
+  
